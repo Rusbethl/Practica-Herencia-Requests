@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/t-clase/proy1/styles.css">
+    <title>Document</title>
+</head>
+<body onload="mostrarAlumnos()">
+    
+    <div class="contenedor">
+        <h2>Consultar lista de alumnos</h2>
+
+        <div class="contenido">
+            <h3>Lista de alumnos</h3>
+            <form action=""></form>
+                <ul id="alumnos"></ul>
+        </div>
+    </div>
+       
+
+    <div class="contenedor">
+        <h2>Registrar alumno</h2>
+
+        <div class="contenido">
+
+            <form action="" id="formulario">
+                <input type="text" placeholder="Nombre" id="nombre">
+                <input type="text" placeholder="Apellidos" id="apellido">
+                <input type="text" placeholder="Grado" id="grado">
+                <input type="text" placeholder="Carrera" id="carrera">
+                <input type="text" placeholder="Turno" id="turno">
+                
+            </form>
+            <button onclick="agregarAlumno()" class="imput" >Registar</button>
+
+        </div>
+    </div>
+
+   <script src="proyectito.js" ></script>
+   <script src="app.js"></script>
+</body>
+</html>
+
